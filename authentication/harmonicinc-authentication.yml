@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://s3-us-west-1.amazonaws.com/vos360-public-api/index.html
+docs: https://s3-us-west-1.amazonaws.com/vos360-public-api/index.html
+summary:
+  types: [oauth2]
+  oauth2_flows: [authorizationCode]
+  token_transport: 'Authorization: Bearer $access_token'
+schemes:
+- name: OAuth2
+  type: oauth2
+  description: >-
+    The VOS 360 REST API is protected with OAuth 2.0. Clients obtain an access
+    token via the authorization code grant and present it to the API in the HTTP
+    header as `Authorization: Bearer $access_token`. A new access token is
+    obtained after the previous one expires.
+  flows:
+  - flow: authorizationCode
+  sources:
+  - https://s3-us-west-1.amazonaws.com/vos360-public-api/index.html
+notes: >-
+  Documented in the "Getting Started with the REST API — Using OAuth 2.0 to
+  access VOS REST API" section of the VOS 360 REST API documentation. Explicit
+  authorization/token endpoint URLs and scope list are not published in the
+  public reference; captured verbatim from the docs without fabrication.
