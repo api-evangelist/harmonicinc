@@ -1,22 +1,68 @@
 aid: harmonicinc
-name: Harmonicinc
-description: 'Harmonicinc is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+name: Harmonic Inc.
+description: >-
+  Harmonic Inc. (NASDAQ: HLIT) is a video streaming and virtualized broadband
+  technology company. Its VOS®360 Media SaaS orchestrates the entire live and
+  on-demand video pipeline — ingest, transcoding, packaging, encryption, playout
+  and delivery — while its cOS platform delivers virtualized DOCSIS 4.0 and fiber
+  broadband access via Distributed Access Architecture (DAA) and Remote PHY.
+  Harmonic serves 150+ operators worldwide including Comcast, Charter and
+  Vodafone. The VOS 360 platform exposes a public REST API secured with OAuth 2.0
+  for managing assets, channels, services, live events, storage, DRM and jobs,
+  enabling integration with third-party CMS and media workflows. This profile was
+  surfaced as a portfolio company of Norwest Venture Partners and enriched from
+  Harmonic's public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/harmonicinc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://www.harmonicinc.com/hubfs/Harmonic_Overview_VideoThumbnail.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-enriched
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
-apis: []
+- Video
+- Video Streaming
+- Broadband
+- Media
+- Streaming
+- SaaS
+- Telecommunications
+apis:
+- name: VOS 360 REST API
+  description: >-
+    REST API for the VOS360 media processing platform — manage assets, channels,
+    services, live events, storage and packaging, DRM/encryption, graphics and
+    jobs. Secured with OAuth 2.0 (Bearer access token).
+  humanURL: https://s3-us-west-1.amazonaws.com/vos360-public-api/index.html
+  image: https://www.harmonicinc.com/hubfs/Harmonic_Overview_VideoThumbnail.png
+  tags:
+  - Video Streaming
+  - Media
+  - REST
+  properties:
+  - type: APIReference
+    url: https://s3-us-west-1.amazonaws.com/vos360-public-api/index.html
+  - type: Documentation
+    url: https://docs.harmonicinc.com/vos360/
+  - type: Authentication
+    url: authentication/harmonicinc-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,4 +70,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://harmonicinc.com
+  url: https://www.harmonicinc.com
+- type: Documentation
+  url: https://docs.harmonicinc.com/vos360/
+- type: APIReference
+  url: https://s3-us-west-1.amazonaws.com/vos360-public-api/index.html
+- type: Support
+  url: https://www.harmonicinc.com/technical-support/
+- type: Blog
+  url: https://www.harmonicinc.com/broadband/insights/
+- type: StatusPage
+  url: https://status.harmonicinc.com/
+- type: ChangeLog
+  url: https://docs.harmonicinc.com/vos360/what-s-new-in-vos360
+- type: TermsOfService
+  url: https://www.harmonicinc.com/terms-use/
+- type: PrivacyPolicy
+  url: https://www.harmonicinc.com/privacy/
+- type: Authentication
+  url: authentication/harmonicinc-authentication.yml
+- type: Lifecycle
+  url: lifecycle/harmonicinc-lifecycle.yml
+- type: DomainSecurity
+  url: security/harmonicinc-domain-security.yml
+- type: LLMsTxt
+  url: llms/harmonicinc-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.harmonicinc.com/
+status_page: https://status.harmonicinc.com/
+status_page_title: Harmonic SaaS Status
+changelog: https://docs.harmonicinc.com/vos360/what-s-new-in-vos360
+versioning:
+  scheme: unknown
+  notes: >-
+    The VOS 360 REST API publishes a dated "What's new in VOS360" release-notes
+    page but does not document an explicit versioning or deprecation policy in
+    its public reference.
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+sla:
+  url: null
+deprecated_operations: []
+notes: >-
+  Harmonic operates a public SaaS status page for its VOS360 / SaaS platform.
+  No deprecation policy or SLA document was found on the public developer
+  surface; recorded as absent rather than fabricated.

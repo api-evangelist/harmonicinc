@@ -1,0 +1,35 @@
+# Harmonic Inc.
+
+> Harmonic Inc. (NASDAQ: HLIT) builds video streaming and virtualized broadband
+> infrastructure. Its VOS®360 Media SaaS orchestrates the entire live and
+> on-demand video pipeline (ingest, transcoding, packaging, encryption,
+> playout, delivery), and its cOS broadband platform delivers virtualized DOCSIS
+> and fiber access. The VOS 360 platform exposes a public REST API secured with
+> OAuth 2.0 for integrating third-party CMS and media workflows.
+
+## APIs
+- [VOS 360 REST API Documentation](https://s3-us-west-1.amazonaws.com/vos360-public-api/index.html): REST API for managing assets, channels, services, live events, storage/packaging, DRM, graphics and jobs on the VOS360 media platform. Auth: OAuth 2.0 (Bearer).
+- [VOS REST API Documentation](https://s3-us-west-1.amazonaws.com/vos-public-api/index.html): REST API for the VOS media processing software.
+
+## Docs
+- [VOS360 User Assistance](https://docs.harmonicinc.com/vos360/): Product documentation and configuration guides.
+- [What's new in VOS360](https://docs.harmonicinc.com/vos360/what-s-new-in-vos360): Dated release notes / changelog.
+- [Technical Support](https://www.harmonicinc.com/technical-support/): 24/7/365 support and service portal.
+- [Harmonic SaaS Status](https://status.harmonicinc.com/): Live platform status page.
+
+## Products
+- [Video Streaming](https://www.harmonicinc.com/video-streaming/): VOS360 Media SaaS, XOS advanced media processor.
+- [Broadband](https://www.harmonicinc.com/broadband/): cOS virtualized broadband, DOCSIS 4.0, DAA / Remote PHY, fiber.
+- [Insights / Blog](https://www.harmonicinc.com/broadband/insights/): Articles and resources.
+
+## Company
+- [Website](https://www.harmonicinc.com/)
+- [Investors](https://investor.harmonicinc.com/)
+- [Careers](https://careers.harmonicinc.com/)
+- [Terms of Use](https://www.harmonicinc.com/terms-use/)
+- [Privacy Policy](https://www.harmonicinc.com/privacy/)
+
+## Repo artifacts
+- authentication/harmonicinc-authentication.yml — OAuth 2.0 auth profile (searched)
+- lifecycle/harmonicinc-lifecycle.yml — status page + release notes (searched)
+- security/harmonicinc-domain-security.yml — TLS/HSTS/SPF/DMARC probe (probed)
