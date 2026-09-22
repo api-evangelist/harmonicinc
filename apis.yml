@@ -95,6 +95,10 @@ common:
   url: https://docs.harmonicinc.com/vos360/
 - type: APIReference
   url: https://s3-us-west-1.amazonaws.com/vos360-public-api/index.html
+- type: Documentation
+  url: https://techlibrary.harmonicinc.com
+- type: GitHubOrganization
+  url: https://github.com/harmonicinc-com
 - type: Support
   url: https://www.harmonicinc.com/technical-support/
 - type: Blog
