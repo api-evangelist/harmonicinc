@@ -1,5 +1,5 @@
 aid: harmonicinc
-name: Harmonic Inc.
+name: Harmonic
 description: >-
   Harmonic Inc. (NASDAQ: HLIT) is a video streaming and virtualized broadband
   technology company. Its VOS®360 Media SaaS orchestrates the entire live and
@@ -124,3 +124,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Harmonic Inc.
