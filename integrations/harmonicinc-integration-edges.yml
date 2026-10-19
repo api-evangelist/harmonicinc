@@ -2,6 +2,8 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://azuremarketplace.microsoft.com/
+- https://dashif.org/members/
+- https://www.svta.org/svta-member-companies-list/
 marketplace_apps: []
 edges:
 - partner_name: Microsoft Azure Marketplace
@@ -19,3 +21,32 @@ edges:
   seller_name: Harmonic Inc
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: DASH Industry Forum
+  partner: null
+  partner_match: register
+  type: register
+  direction: partner-built
+  channel: standard-directory
+  relationship: standard-participant
+  evidence: https://dashif.org/members/
+  category: adaptive streaming standard (MPEG-DASH)
+  contract_reference:
+    register: DASH Industry Forum members (dashif.org/members)
+    standard: MPEG-DASH (DASH-IF IOP)
+    spec_file: null
+    role: dashif-contributor-member
+    registered_name: harmonic
+    register_id: http://www.harmonicinc.com/
+    name_source: logo file name (the page prints no name)
+    member_tier: contributor
+    matched_domain: harmonicinc.com
+    matched_by: domain
+    signal_note: 'participation only: DASH-IF publishes no certified-products list (conformance.dashif.org is a
+      validator tool); member_tier is a per-edge signal, never counted'
+    detected_by: sweep-streaming-video.py
+    detected: '2026-10-18'
+  detected_by: sweep-streaming-video.py
+  first_seen: '2026-10-18'
+source:
+- https://dashif.org/members/
+- https://www.svta.org/svta-member-companies-list/
