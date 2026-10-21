@@ -41,3 +41,48 @@
     detected: '2026-10-18'
   status: not-a-workflow
   arazzo: null
+- slug: harmonicinc-atsc-advanced-television-systems-committee
+  label: ATSC (Advanced Television Systems Committee)
+  partner_name: ATSC (Advanced Television Systems Committee)
+  category: broadcast television standards body membership
+  type: register
+  channel: standard-directory
+  evidence: https://www.atsc.org/members/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: ATSC members (atsc.org/members/)
+    standard: ATSC 3.0
+    spec_file: null
+    role: atsc-member
+    registered_name: Harmonic
+    matched_domain: harmonicinc.com
+    matched_by: domain
+    signal_note: 'participation only: standards-body membership (the page does not mark voting / observer class)'
+    detected_by: sweep-broadcast-tv.py
+    detected: '2026-10-20'
+  status: not-a-workflow
+  arazzo: null
+- slug: harmonicinc-dvb-project
+  label: DVB Project
+  partner_name: DVB Project
+  category: digital video broadcasting consortium membership
+  type: register
+  channel: standard-directory
+  evidence: https://dvb.org/about/members/harmonic/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: DVB Project members (dvb.org/membership/, vtm-members data/members.json)
+    standard: DVB
+    spec_file: null
+    role: dvb-member
+    registered_name: Harmonic
+    register_id: https://dvb.org/about/members/harmonic/
+    matched_domain: harmonicinc.com
+    matched_by: domain
+    signal_note: 'participation only: consortium membership'
+    detected_by: sweep-broadcast-tv.py
+    detected: '2026-10-20'
+  status: not-a-workflow
+  arazzo: null
